@@ -1,0 +1,59 @@
+/*----------LOGO above TOC---------*/
+
+#TOC::before {
+  
+  display: block;
+  height: 280px;
+  margin: 70px 30px 40px 40px;
+  content: "Klaudia Chmielewska";
+  background-image: url("logo.png");
+  background-size: 80%; /*contain;*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  content: "Klaudia Chmielewska\aphoto by Prof Sebastian Demkowicz";  /* tu tekst do wpisania obok logo */
+  margin: auto;
+  /*border: 1px solid black; */
+  /*background-color: lightgrey; */
+  font-size: 12px;
+  text-align: center;
+  white-space: pre; /* allows for breaking onto the next line (enter) */
+  max-width: 30ch; 
+  word-wrap:break-word;
+
+  
+}
+
+/*------------Table of Contents (TOC)----------- */
+
+
+.tocify {
+  border: none;   /*Removes border */
+  border-radius: 0px; /* Gets rid of rounded corners on TOC */
+  font-size: 16px;
+}
+
+.tocify ul, .tocify li { /* Increases spacing between TOC headers*/
+    line-height: 25px !important;
+}
+
+.tocify ul {
+  border-right: solid 1px #eee; /* Thin right border on TOC list */
+}
+
+
+.button {background-color: #008CBA;}
+
+
+
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
